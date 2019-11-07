@@ -22,6 +22,5 @@ else
     upgrade\t\tCreate a new user environment
     install\t\tInstall a package globally
     uninstall\t\tUninstall a package globally
-    shell\t\tOpen up the Nix shell in the CWD
-  "
+    shell\t\tOpen up the Nix shell in the CWD"
 fi
