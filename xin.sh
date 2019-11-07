@@ -3,7 +3,7 @@
 if [ "$1" = "search" ]; then
   nix-env -qa $2
 elif [ "$1" = "update" ]; then
-  nix-channel -u
+  nix-channel --update
 elif [ "$1" = "upgrade" ]; then
   nix-env -u
 elif [ "$1" = "install" ]; then
